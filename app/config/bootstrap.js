@@ -11,6 +11,7 @@
 
 module.exports.bootstrap = async function(done) {
 
+  var Twitter = require('twitter');
   // Import dependencies
   var path = require('path');
 
